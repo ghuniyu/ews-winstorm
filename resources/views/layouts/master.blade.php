@@ -12,7 +12,7 @@
 	<header>
 		 <nav>
 		    <div class="nav-wrapper">
-		      <a href="#" class="brand-logo">Logo</a>
+		      <a href="#" style="padding-left:10px " class="brand-logo"><img src="assets/img/logo.png"></a>
 		      <ul id="nav-mobile" class="right hide-on-med-and-down">
 		        <li><a href="sass.html"><i class="material-icons" title="Home">class</i></a></li>
 		        <li><a href="badges.html"><i class="material-icons" title="Grafik">insert_chart</i></a></li>
@@ -22,15 +22,9 @@
 		  </nav>
 	</header>
 	<br>
-<div class="container">
-<div class="row">
 	
-
-	
-
 	@yield('content')
-</div>
-</div>
+
 	<br>
 
 	<footer class="page-footer">
